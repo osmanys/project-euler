@@ -2,8 +2,6 @@ package projects;
 
 import algorithms.EratosthenesSieve;
 import utils.FastReader;
-import utils.Pair;
-import java.util.Vector;
 
 public class ProjectEuler003 {
     private static final int MAX_SIZE = 1000001;
@@ -12,7 +10,6 @@ public class ProjectEuler003 {
         FastReader f = new FastReader();
         int i, t = f.nextInt();
         long n;
-        Vector<Pair<Integer, Integer>> p;
         EratosthenesSieve e = new EratosthenesSieve(MAX_SIZE);
         while(t-- > 0){
             n = f.nextLong();
